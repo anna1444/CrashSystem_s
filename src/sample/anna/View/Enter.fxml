@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #006363;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.anna.Controllers.EnterController">
+   <children>
+      <AnchorPane layoutY="51.0" prefHeight="348.0" prefWidth="600.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="95.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя пользователя" wrappingWidth="174.4609375">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <TextField fx:id="usernameField" layoutX="291.0" layoutY="43.0" prefHeight="34.0" prefWidth="189.0" />
+            <Text layoutX="95.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль" wrappingWidth="174.4609375">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <TextField fx:id="passwordField" layoutX="291.0" layoutY="92.0" prefHeight="34.0" prefWidth="189.0" />
+            <Button fx:id="idEnterButton" layoutX="214.0" layoutY="154.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="174.0" text="Вход">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="idRegisterButton" layoutX="418.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="174.0" text="Регистрация">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

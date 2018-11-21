@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.anna.Controllers.PreviewRepairController">
+    <children>
+        <AnchorPane layoutY="36.0" prefHeight="366.0" prefWidth="600.0" style="-fx-background-color: #006363;">
+            <children>
+                <Button fx:id="backButton" layoutX="421.0" layoutY="315.0" mnemonicParsing="false" text="Просмотреть" />
+                <Button fx:id="nextButton" layoutX="530.0" layoutY="315.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="38.0" text="-&gt;" />
+                <Text layoutX="22.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ремонтные работы:">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <ComboBox fx:id="dateBox" layoutX="22.0" layoutY="48.0" prefHeight="25.0" prefWidth="161.0" promptText="№ ремонта:" />
+                <TextField fx:id="changeField" layoutX="29.0" layoutY="247.0" />
+                <Text layoutX="34.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата начала ремонта:" wrappingWidth="137.6162109375" />
+                <ComboBox fx:id="workerBox" layoutX="23.0" layoutY="99.0" prefHeight="25.0" prefWidth="161.0" promptText="Проводили ремонт:" />
+                <Text layoutX="401.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Количество материалов:" wrappingWidth="148.9999920129776" />
+                <TextField fx:id="priceField" layoutX="401.0" layoutY="99.0" />
+                <Text layoutX="29.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="По заявке:" wrappingWidth="110.6162109375" />
+                <TextField fx:id="deriverField" layoutX="29.0" layoutY="197.0" />
+            <Button fx:id="backButton1" layoutX="363.0" layoutY="315.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="&lt;-" />
+            <ComboBox fx:id="brigadeBox1" layoutX="208.0" layoutY="99.0" prefHeight="25.0" prefWidth="163.0" promptText=" Использ.материалы:" />
+            <Text layoutX="28.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата окончания ремонта:" wrappingWidth="148.9999920129776" />
+            <TextField fx:id="changeField1" layoutX="28.0" layoutY="303.0" />
+            <Text layoutX="290.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="СТОИМОСТЬ РЕМОНТА:" wrappingWidth="137.6162052154541" />
+            <TextField fx:id="changeField2" layoutX="290.0" layoutY="218.0" prefHeight="25.0" prefWidth="128.0" />
+            <Text layoutX="428.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ГРН" wrappingWidth="37.99999952316284" />
+            </children>
+        </AnchorPane>
+        <Text layoutX="218.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Просмотр" wrappingWidth="101.96484375">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

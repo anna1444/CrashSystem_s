@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.anna.Controllers.RegistConfigController">
+    <children>
+        <AnchorPane layoutY="45.0" prefHeight="354.0" prefWidth="600.0" style="-fx-background-color: #006363;">
+            <children>
+                <ComboBox fx:id="workerBox" layoutX="14.0" layoutY="49.0" onAction="#comboChanged" prefHeight="25.0" prefWidth="166.0" promptText="Описание:" />
+                <TextField fx:id="changeField" layoutX="378.0" layoutY="49.0" prefHeight="25.0" prefWidth="132.0" promptText="Найдено" />
+                <Button fx:id="backButton" layoutX="31.0" layoutY="303.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="41.0" text="&lt;-" />
+                <Button fx:id="showButton" layoutX="239.0" layoutY="49.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" text="Искать" />
+            <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите описание аварии:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            </children>
+        </AnchorPane>
+        <Text layoutX="91.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Конфигурация &quot;Регистрация аварий&quot;">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
